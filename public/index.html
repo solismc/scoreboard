@@ -11,37 +11,47 @@
 <body>
 
 
-  <header class="header">My Scoreboard</header>
-  <section class="top-left-box">
-    <span>Team 1</span>
-    <span>Team 2</span>
+<header class="header">My Scoreboard</header>
+<section class="home-team">
+    <p>Home Team</p>
+  <section class="home-team-score">
+    <p class="output1"></p>
+    <p>0</p>
   </section>
-  <section class="top-right-box">
-    <span>0</span>
-    <span>0</span>
-  </section>
-  <section class="lower-box-left">
-
-
-    <span>Update Team 1 Name</span>
-    <span class="output1">0</span>
+  <section class="update-home-team-name">
+    <span>Update Home Team Name</span>
+    <span class="output1">Team Name</span>
       <input type="text" placeholder="Team Name">
-    </span>
     <button class="update-team-one-button">Update</button>
-
-
-    <span>Update Team 2 Name</span>
-    <span>
-      <input id="output2" type="text" placeholder="Team Name">
-    </span>
-    <button class="update-team-two-button">Update</button>
-
-
-    <section class="lower-box-score"></section>
-    <span>Update Team 1 Score</span>
-    <button>add 1</button>
-    <button>substract 1</button>
   </section>
+  <br>
+    <span>Update Home Team Score</span>
+    <span>
+        <button class="update-home-team-score">Add 1</button>
+        <button class="update-home-team-score">Substract 1</button>  
+    </span>
+</section>
+    <section class="away-team">
+        <p>Away Team</p>
+      </section>
+      <section class="away-team-score">
+        <p class="output1"></p>
+        <p>0</p>
+      </section>
+      <section class="update-away-team-name">
+        <span>Update Away Team Name</span>
+        <span class="output1">Team Name</span>
+          <input type="text" placeholder="Team Name">
+        <button class="update-team-one-button">Update</button>
+      </section>
+      <br>
+        <span>Update Away Team Score</span>
+        <span>
+            <button class="update-home-team-score">Add 1</button>
+            <button class="update-home-team-score">Substract 1</button>  
+        </span>
+
+
 
   <script src="/main.js" charset="utf-8"></script>
 </body>
