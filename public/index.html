@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Scoreboard</title>
-    <link rel="stylesheet" href="/screen.css">
-  </head>
-  <body>
-    <h1>Hello, World!</h1>
-    <script src="/main.js" charset="utf-8"></script>
-  </body>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scoreboard</title>
+  <link rel="stylesheet" href="/screen.css">
+</head>
+
+<body>
+
+
+  <header class="header">My Scoreboard</header>
+  <section class="top-left-box">
+    <span>Team 1</span>
+    <span>Team 2</span>
+  </section>
+  <section class="top-right-box">
+    <span>0</span>
+    <span>0</span>
+  </section>
+  <section class="lower-box-left">
+
+
+    <span>Update Team 1 Name</span>
+    <span class="output1">0</span>
+      <input type="text" placeholder="Team Name">
+    </span>
+    <button class="update-team-one-button">Update</button>
+
+
+    <span>Update Team 2 Name</span>
+    <span>
+      <input id="output2" type="text" placeholder="Team Name">
+    </span>
+    <button class="update-team-two-button">Update</button>
+
+
+    <section class="lower-box-score"></section>
+    <span>Update Team 1 Score</span>
+    <button>add 1</button>
+    <button>substract 1</button>
+  </section>
+
+  <script src="/main.js" charset="utf-8"></script>
+</body>
+
 </html>
