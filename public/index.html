@@ -11,45 +11,46 @@
 <body>
 
 
-<header class="header">My Scoreboard</header>
-<section class="home-team-update">
-    <p>Home Team</p>
-  <section class="home-team-score">
+  <header class="header">My Scoreboard</header>
+
+  <section class="home-team"></section>
+  <section class="home-team-update">
+    <p class="home-team-name-output">Home Team</p>
+      <p class="home-team-score-output"></p>
+      <p>0</p>
+    </section>
+    <section class="update-home-team-name">
+      <span>Update Home Team Name</span>
+      <input id="home-team-name" type="text" placeholder="Team Name">
+      <button class="update-home-team-button">Update</button>
+    </section>
+    <br>
+    <span>Update Home Team Score</span>
+    <span>
+      <button class="add-one-to-home-team-score">Add 1</button>
+      <button class="substract-one-to-home-team-score">Substract 1</button>
+    </span>
+  </section>
+  </section>
+
+  <section class="away-team">
+    <p>Away Team</p>
+  </section>
+  <section class="away-team-score">
     <p class="output1"></p>
     <p>0</p>
   </section>
-  <section class="update-home-team-name">
-    <span>Update Home Team Name</span>
-    <span class="output1">Team Name</span>
-      <input type="text" placeholder="Team Name">
+  <section class="update-away-team-name">
+    <span>Update Away Team Name</span>
+    <input type="text" placeholder="Team Name">
     <button class="update-team-one-button">Update</button>
   </section>
   <br>
-    <span>Update Home Team Score</span>
-    <span>
-        <button class="update-home-team-score">Add 1</button>
-        <button class="update-home-team-score">Substract 1</button>  
-    </span>
-</section>
-    <section class="away-team">
-        <p>Away Team</p>
-      </section>
-      <section class="away-team-score">
-        <p class="output1"></p>
-        <p>0</p>
-      </section>
-      <section class="update-away-team-name">
-        <span>Update Away Team Name</span>
-        <span class="output1">Team Name</span>
-          <input type="text" placeholder="Team Name">
-        <button class="update-team-one-button">Update</button>
-      </section>
-      <br>
-        <span>Update Away Team Score</span>
-        <span>
-            <button class="update-home-team-score">Add 1</button>
-            <button class="update-home-team-score">Substract 1</button>  
-        </span>
+  <span>Update Away Team Score</span>
+  <span>
+    <button class="update-home-team-score">Add 1</button>
+    <button class="update-home-team-score">Substract 1</button>
+  </span>
 
 
 

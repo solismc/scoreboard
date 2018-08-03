@@ -1,34 +1,29 @@
 
-const main = () => {
-  document.querySelector('h1').textContent += '?'
+
+
+const homeTeamNameButtonClick = () => {
+  console.log('Home Team name button is clicked')
+  let updateHomeTeamName = document.querySelector('.update-home-team-name-output') 
+  console.log(updateHomeTeamName)
+  let newName = document.querySelector('#home-team-name').textContent
+//  updateHomeTeamName.textContent = newName.textContent
+  console.log(newName.textContent)
+}
+document.querySelector('.update-home-team-button').addEventListener('click', homeTeamNameButtonClick)
+
+
+const addOneToHomeTeamScore = () => {
+  console.log('button is clicked')
+
+
 }
 
-document.addEventListener('DOMContentLoaded', main)
+document.querySelector('.add-one-to-home-team-score').addEventListener('click', addOneToHomeTeamScore)
+
+const substractOneToHomeTeamScore = () => {
+  console.log('button is clicked')
 
 
-const updateTeamTwoName=()=> {
-  console.log('updated')
-  console.log('button was clicked')
 }
 
-
-const buttonClickEvent = () => {
-  console.log('button was clicked')
-  const newTeamName = document.querySelector('new-home-team').value
-  document.querySelector('.team1').textContent = newTeamName
-}
-
-document.addEventListener('DOMContentLoaded', main)
-document.querySelector('.home-team-update').addEventListener('click', buttonClickEvent)
-document.querySelector('.away-team-update').addEventListener('click', buttonClickEvent)
-
-
-
-
-document.querySelector('.update-team-one-button').addEventListener('click',updateTeamOneName)
-document.querySelector('.output1').textContent
-document.querySelector('.update-team-two-button').addEventListener('click',updateTeamTwoName)
-
-const updateTeamOneName=()=> {
-  console.log('updated')
-}
+document.querySelector('.substract-one-to-home-team-score').addEventListener('click', substractOneToHomeTeamScore)
