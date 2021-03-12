@@ -15,7 +15,6 @@ body {
   color: white;
   /*font-family: cursive;*/
   padding-top: 7vh;
-  padding-bottom: .5em;
 }
 
 .home-team-wrapper {
@@ -26,3 +25,7 @@ body {
   padding-bottom: .5em;
 }
 
+.container-fluid {
+  color: white;
+  padding-left: 17vw !important;
+}
